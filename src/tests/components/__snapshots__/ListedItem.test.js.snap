@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ListedItem correctly 1`] = `
+<a
+  href="/listings/123abc456def"
+>
+  <li
+    className="list-inline-item listed-item small"
+  >
+    <img
+      alt="Fender Bender"
+      className="listed-item__img small"
+      src="http://www.alan.com"
+    />
+    <div
+      className="listed-item__title small"
+    >
+      Fender
+       - 
+      Bender
+    </div>
+    <div
+      className="listed-item__price small"
+    >
+      $1500
+    </div>
+  </li>
+</a>
+`;

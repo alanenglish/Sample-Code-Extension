@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the CategoryListings correctly 1`] = `
+<div
+  className="category-results"
+>
+  <ul
+    className="list-inline mt-2"
+  >
+    <Loading />
+  </ul>
+</div>
+`;

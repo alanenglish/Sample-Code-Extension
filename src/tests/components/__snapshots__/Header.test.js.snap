@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header correctly 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="header__content"
+  >
+    <NavLink
+      activeClassName="header__link--active"
+      aria-current="page"
+      className="header__link"
+      to="/categories"
+    >
+      Categories
+    </NavLink>
+    <h1
+      className="header__title"
+    >
+      Reverbished
+    </h1>
+    <NavLink
+      activeClassName="header__link--active"
+      aria-current="page"
+      className="header__link"
+      exact={true}
+      to="/listings"
+    >
+      Listings
+    </NavLink>
+  </div>
+</div>
+`;

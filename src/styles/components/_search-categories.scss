@@ -1,0 +1,37 @@
+.search-categories {
+  background: #f79328;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .search-categories__input {
+    width: 40%;
+    height: 40%;
+    border: 2px solid #f79328;
+    border-radius: 5rem;
+    margin-left: 5px;
+    padding-left: 10px;
+    &::placeholder {
+      font-style: italic;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .search-categories__icon {
+    font-size: 120%;
+    color: white;
+  }
+  
+}
+
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .search-categories__input {
+      width: 80%;
+    }
+}

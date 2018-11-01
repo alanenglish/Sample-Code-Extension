@@ -1,0 +1,16 @@
+.load-container {
+  margin: 0 auto;
+}
+
+.loader {
+  align-items: center;
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+  width: inherit;
+}
+
+.loader__gif {
+  height: 8rem;
+  width: 8rem;
+}

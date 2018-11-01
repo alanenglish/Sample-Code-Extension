@@ -1,0 +1,23 @@
+.right-col {
+  padding: 0px;
+  text-align: center;
+  
+  .category-results {
+    height: 82vh;
+    overflow-y: scroll;
+    width: inherit;
+    border: 1px solid black;
+  }
+
+  .category-placeholder {
+    height: 82vh;
+    width: inherit;
+  }
+
+  .placeholder-image {
+    height: inherit;
+    width: inherit;
+    opacity: .7;
+  }
+
+}

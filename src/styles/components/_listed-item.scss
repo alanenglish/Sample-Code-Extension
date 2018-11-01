@@ -1,0 +1,57 @@
+.listed-item {
+  background-color: #F7F7F7;
+  border-radius: 4px;
+  box-shadow: 0 6px 4px -4px #777;
+  text-align: center;
+  height: 255px;
+  width: 255px;
+  margin: 5px 5px;
+  opacity: .7;
+  transition: opacity .5s ease;
+  vertical-align:top;
+  &.big {
+    height: 305px;
+    width: 305px;
+  }
+  &:hover {
+    opacity: 1;
+  }
+
+  .listed-item__img {
+    margin-top: 15px;
+    height: 175px;
+    width: 175px;
+    border-radius: 5%;
+    &.big {
+      height: 210px;
+      width: 210px;
+    }
+  }
+
+  .listed-item__title {
+    color: black;
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    height: 40px;
+    margin-top: 5px;
+    padding: 0 2px;
+    width: inherit;
+    &.big {
+      margin-top: 8px;
+      height: 45px;
+      font-size: 15px;
+    }
+  }
+
+  .listed-item__price {
+    font-family: 'Bangers', cursive;
+    color: green;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+
+    &.big {
+      margin-top: 5px;
+    }
+  }
+}

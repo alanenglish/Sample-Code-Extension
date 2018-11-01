@@ -1,0 +1,40 @@
+.selectors_container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7px;
+  padding: 0 20em;
+
+  .selector-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .selector-label {
+    margin-right: 5px;
+    margin-bottom: 2px;
+    font-family: 'Bangers', cursive;
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding-top: 7px;
+  }
+
+  .currency-selector, .region-selector {
+    height: 26px;
+    width: 90px;
+    background: #E9E9E9;
+    border: none;
+    box-shadow: 0 2px 1px -1px #777;
+    color: #000000;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+    .selectors_container {
+      padding: 0 10em;
+    }
+}

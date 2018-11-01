@@ -1,0 +1,48 @@
+.header {
+  background: black;
+  height: 8vh;
+
+  .header__content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size $xl-size;
+  }
+
+  .header__link {
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 120%;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: color .5s ease;
+    &:hover {
+      text-decoration: none;
+      color: #f79328;
+    }
+  }
+
+  .header__link--active {
+    color: #f79328;
+  }
+
+  .header__title {
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 250%;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .header__title {
+      font-size: 150%;
+    }
+
+    .header__link {
+      font-size: 90%;
+    }
+}
